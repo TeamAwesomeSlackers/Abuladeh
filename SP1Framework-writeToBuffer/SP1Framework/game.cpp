@@ -21,12 +21,12 @@ int printMap[MAP_HEIGHT][MAP_WIDTH] = {
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
-    { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
-    { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
+    { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
+    { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
-    { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
+    { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
     { 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 },
@@ -157,16 +157,16 @@ void renderMap()
 
 void moveCharacter()
 {
+        //PLAYER MOVEMENT
         // JUMP UP
         if (keyPressed[K_UP] && keyPressed[K_SPACE] && charLocation.Y > 0)
         {        
             if (printMap[charLocation.Y - 2][charLocation.X] == 1){
-                
-            }
+
+            }    
             else{
                 Beep(1440, 30);
-                charLocation.Y -= 2;
-                
+                charLocation.Y -= 2; 
             }
         }
         // JUMP LEFT
@@ -184,7 +184,6 @@ void moveCharacter()
         if (keyPressed[K_DOWN] && keyPressed[K_SPACE] && charLocation.Y < console.getConsoleSize().Y - 1)
         {
             if (printMap[charLocation.Y + 2][charLocation.X] == 1){
-
             }
             else{
                 Beep(1440, 30);
@@ -246,21 +245,43 @@ void moveCharacter()
                 charLocation.X += 1;
             }
         }
-		if (charLocation.Y < g_cChaserLoc.Y){
-			g_cChaserLoc.Y -= 1;
-			Beep(1440, 30);
-		} // up
-		if (charLocation.X < g_cChaserLoc.X){
-			g_cChaserLoc.X -= 1;
-			Beep(1440, 30);
+        // CHASER MOVEMENT
+        if (charLocation.Y < g_cChaserLoc.Y){
+            if (printMap[g_cChaserLoc.Y - 1][g_cChaserLoc.X] == 1){
+
+            }
+            else{
+                g_cChaserLoc.Y -= 1;
+                Beep(1440, 30);
+            }
+        }
+		 // up
+		else if (charLocation.X < g_cChaserLoc.X){
+            if (printMap[g_cChaserLoc.Y][g_cChaserLoc.X - 1] == 1){
+
+            }
+            else{
+                g_cChaserLoc.X -= 1;
+                Beep(1440, 30);
+            }
 		} // left
 		if (charLocation.X > g_cChaserLoc.X){
-			g_cChaserLoc.X += 1;
-			Beep(1440, 30);
+            if (printMap[g_cChaserLoc.Y][g_cChaserLoc.X + 1] == 1){
+
+            }
+            else{
+                g_cChaserLoc.X += 1;
+                Beep(1440, 30);
+            }
 		} // right
 		if (charLocation.Y > g_cChaserLoc.Y){
-			g_cChaserLoc.Y += 1;
-			Beep(1440, 30);
+            if (printMap[g_cChaserLoc.Y + 1][g_cChaserLoc.X] == 1){
+
+            }
+            else{
+                g_cChaserLoc.Y += 1;
+                Beep(1440, 30);
+            }
 		} // down
 		collision();
 	
@@ -281,8 +302,8 @@ void clearScreen()
 void renderCharacter()
 {
     // Draw the location of the character
-    console.writeToBuffer(charLocation, (char)1, 0x0C);
-	console.writeToBuffer(g_cChaserLoc, (char)5, 0x0B);
+    console.writeToBuffer(charLocation, (char)1, 0x0B);
+	console.writeToBuffer(g_cChaserLoc, (char)5, 0x0C);
 }
 
 void renderFramerate()
